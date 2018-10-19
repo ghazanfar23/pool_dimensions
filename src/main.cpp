@@ -29,20 +29,6 @@ char read_serial = Serial.read();
 
 void loop()
 {
-  //   // send data only when you receive data:
-  //        if (read_serial == "stop") {
-  //
-  //                Serial.print("I received: ");
-  //                Serial.print(read_serial);
-  //
-  ////                Serial.println(incomingByte, DEC);
-  //                Serial.println("\n");
-  ////                x= 0;
-  ////               x=incomingByte;
-  //exit(0);
-  //        }
-  //  while (Serial.available() > 0 && Serial.read() == 's'){
-
   delay(50);
   long distance;
   // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings.
